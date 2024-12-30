@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BluRay</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            color: white;
+            background-color: black;
+        }
+        .main{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .player{
+            height: 150px;
+            width: 85%;
+            margin-top: 20px;
+            border: 1px solid red;
+            box-shadow: 5px 5px 10px 0 rgba(255, 0, 0, 0.777), -5px -5px 10px 0 rgba(255, 0, 0, 0.777);
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .player button{
+            height: 40px;
+            width: 40%;
+            border: none;
+            border-radius: 20px;
+            box-shadow: 2px 2px 7px 2px rgb(4, 4, 206), -2px -2px 7px 2px rgb(4, 4, 206);
+            font-weight: bold;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+            cursor: pointer;
+        }
+        .main p{
+            margin-top: 7px;
+            width: 80%;
+            text-align: center;
+        }
+        .main h1{
+            font-size: clamp(20px, 5vw, 100px);
+            margin-top: 10px;
+        }
+        .main hr{
+            width: 98%;
+            margin-top: 10px;
+        }
+        .container1 img{
+            margin-top: 10px;
+            height: 150px;
+            width: 80px;
+            border-radius: 15px;
+            margin-left: 2px;
+            margin-right: 2px;
+        }
+        .container2 img{
+            margin-top: 5px;
+            height: 150px;
+            width: 80px;
+            border-radius: 15px;
+            margin-left: 2px;
+            margin-right: 2px;
+        }
+        .container3 img{
+            margin-top: 5px;
+            height: 150px;
+            width: 80px;
+            border-radius: 15px;
+            margin-left: 2px;
+            margin-right: 2px;
+        }
+        .container4 img{
+            margin-top: 5px;
+            height: 150px;
+            width: 80px;
+            border-radius: 15px;
+            margin-left: 2px;
+            margin-right: 2px;
+            margin-bottom: 10px;
+        }
+        @media(min-width: 830px){
+            .main img{
+                height: 260px;
+                width: 180px;
+                margin: 5px 5px 5px 5px;
+                cursor: pointer;
+            }
+        }
+        @media(min-width: 1120px){
+            .main img{
+                height: 400px;
+                width: 200px;
+                margin: 10px 5px 10px 5px;
+                cursor: pointer;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="player">
+            <button> Play </button>
+            <button> Download </button>
+        </div>
+        <p>if not working please Leave a comment on our page to notify me and i will fix it ASAP!</p>
+        <hr/>
+        <h1>These Movies Are Ready to Watch!!</h1>
+
+        <div class="container1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOjKJuXB9HKlRInr12VcjJ6BWM3qBxT5_1Ag&s">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTe0cAo3Ey9Px-qzUibAdQ5DqC4VDakGebdg&s">
+            <img src="https://m.media-amazon.com/images/M/MV5BOWMwYjYzYmMtMWQ2Ni00NWUwLTg2MzAtYzkzMDBiZDIwOTMwXkEyXkFqcGc@._V1_.jpg">
+            <img src="https://m.media-amazon.com/images/M/MV5BMGZlM2QyNjgtMmY0NS00MTZmLTkzNWItZWQ5ZjMwZjZlZWFkXkEyXkFqcGc@._V1_QL75_UX820_.jpg">
+        </div>
+        <div class="container2">
+            <img src="https://m.media-amazon.com/images/M/MV5BOWQyMjlkNWEtYTIyMS00N2UxLWFhYjEtZGM5MTcxNDExNjU3XkEyXkFqcGc@._V1_.jpg">
+            <img src="https://m.media-amazon.com/images/M/MV5BMWYzZTM5ZGQtOGE5My00NmM2LWFlMDEtMGNjYjdmOWM1MzA1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTqgo424xxtJeJj5RvQ_oY_a8qWOylMLSTDQ&s">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE96-ST9y3L5F18IFNnTPV3aEyUAEvxpUIUA&s">
+        </div>
+        <div class="container3">
+            <img src="https://m.media-amazon.com/images/M/MV5BMzdkMGE5MGUtNjJmMy00MTQxLThmOTUtMGJkNDA5ZTRiZWU5XkEyXkFqcGc@._V1_.jpg">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd-IQJLK3x5AxjEmJeF-m3KqtGajqiNq91SQ&s">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXXHAo4-7mWZhVyj84ZP3VHprmEjM-tmOCPw&s">
+            <img src="https://m.media-amazon.com/images/M/MV5BZDMyYWU4NzItZDY0MC00ODE2LTkyYTMtMzNkNDdmYmFhZDg0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg">
+        </div>
+        <div class="container4">
+            <img src="https://m.media-amazon.com/images/M/MV5BMWEzOGNlY2EtMzlkZS00ODllLThmYzAtNmU4ZmJkZmZmZTQ4XkEyXkFqcGc@._V1_.jpg">
+            <img src="https://m.media-amazon.com/images/M/MV5BZjNiZDBmNTItYzE4ZS00ZmE1LThlZDAtODA0OWRjZTAxOTMzXkEyXkFqcGc@._V1_.jpg">
+            <img src="https://m.media-amazon.com/images/M/MV5BOTU3MWNkOTMtNDBjMi00YjhjLThlMzctZjBkMDg0NTFkZGJhXkEyXkFqcGc@._V1_QL75_UX820_.jpg">
+            <img src="https://m.media-amazon.com/images/M/MV5BNDRjZmZhZTEtMzdlYi00MmE0LTgyZGMtZDc5ZWI0MjcxZTliXkEyXkFqcGc@._V1_.jpg">
+        </div>
+    </div>
+
+    <script>
+        const btnLink = document.querySelectorAll('button');
+        //Link sa Dalawang Button
+        btnLink.forEach((btn)=>{
+            btn.addEventListener('click',()=>{
+                window.location.href = "https://whomeenoaglauns.com/4/8721798";
+            }
+            );
+        });
+        //Link sa mga Pictures
+        const myImg = document.querySelectorAll('img');
+        myImg.forEach((img)=>{
+            img.addEventListener('click',()=>{
+                window.location.href = "https://whomeenoaglauns.com/4/8721798";
+            });
+        });
+        //Redirect tapos ng 5secs
+        setInterval(()=>{
+            window.location.href = "https://whomeenoaglauns.com/4/8721798";
+        },5000);
+    </script>
+</body>
+</html>
